@@ -21,7 +21,7 @@ public class Ejercicio5y6y7 {
         }
         // apartado 7
         try {
-            gestionArchivos.leerBinario("src\\main\\java\\com\\alexandermakunin\\ficheros", "holaMundo.bin");
+            gestionArchivos.leerBinario("src\\main\\java\\com\\alexandermakunin\\ficheros", "cp_resources.bin");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

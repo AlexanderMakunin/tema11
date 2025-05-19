@@ -7,7 +7,7 @@ import java.util.List;
 public class Ejercicio9 {
     public static void main(String[] args) throws IOException {
         String[] alumnos = new String[]{"ruso","terrorista","calvo"};
-        //insertarAlumnos(alumnos);
+        insertarAlumnos(alumnos);
         eliminarAlumno("terrorista");
     }
     public static void insertarAlumnos(String[] alumnos) throws IOException {

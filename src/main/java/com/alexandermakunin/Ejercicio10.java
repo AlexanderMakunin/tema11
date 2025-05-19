@@ -6,7 +6,11 @@ import java.util.List;
 
 public class Ejercicio10 {
     public static void main(String[] args) {
-
+        try {
+            concat(new File("src\\main\\java\\com\\alexandermakunin\\ficheros\\holaMundo.txt"),new File("src\\main\\java\\com\\alexandermakunin\\ficheros\\SoyUnFichero.txt"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static void concat(File file1, File file2) throws IOException {

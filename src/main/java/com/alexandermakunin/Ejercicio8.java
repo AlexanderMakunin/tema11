@@ -10,7 +10,7 @@ public class Ejercicio8 {
         try (FileReader fileReader = new FileReader(file)) {
             int num;
             StringBuilder sb = new StringBuilder();
-            while (true) {
+            while (fileReader.read() != -1) {
                 num = fileReader.read();
                 if (num == -1) {
                     break;
